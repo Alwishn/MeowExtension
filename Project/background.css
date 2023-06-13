@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  width: 240px;
+  height: 297px;
+  background-color: #FF9BAA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#meowButton {
+  width: 140px;
+  height: 21px;
+  font-family: 'Quiet Meow';
+  font-size: 15px;
+  line-height: 17px;
+  background-color: #FF8295;
+  border-radius: 15px;
+  border: none;
+}
+
+.Mtr {
+  font-family: 'Quiet Meow';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.cat {
+  margin-bottom: 10px;
+}
+
+#undoButton {
+  width: 70px;
+  height: 21px;
+  font-family: 'Quiet Meow';
+  font-size: 15px;
+  line-height: 17px;
+  background-color: #FF8295;
+  border-radius: 15px;
+  margin-top: 5px;
+  border: none;
+}
+
+#meowButton:hover {
+  background-color: #F4566E;
+}
+
+#undoButton:hover {
+  background-color: #F4566E;
+}
+
+#meowButton:active {
+  outline: 2px solid black;
+}
+
+#undoButton:active {
+  outline: 2px solid black;
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Quiet Meow';
+
+  font-display: swap;
+  src: url('/QuietMeows.woff2') format('woff2');
